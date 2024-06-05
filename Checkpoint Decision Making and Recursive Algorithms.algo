@@ -1,0 +1,42 @@
+
+// function Leap Year
+
+if ((year % 4 === 0 && year % 100 !== 0) || year % 400 ===
+0) {
+
+return true;
+
+} else {
+
+return false;
+}
+
+// function temperature
+
+function Clothing (temperature) {
+if (temperature > 20) {
+return "T-shirt";
+} else {
+}
+return "Shirt";
+console.log(Clothing());
+
+
+// function Palindrome
+
+
+function isPalindrome (str) {
+    for (let i = 0; i < str.length; i++) {
+if (str[i]===str[str.length 1- i]) {
+continue;
+} else {
+
+return false;
+
+}
+}
+return true;
+}
+console.log(isPalindrome("azza"));
+
+
